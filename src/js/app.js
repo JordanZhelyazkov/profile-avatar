@@ -1,4 +1,4 @@
-import { size } from "mathjs";
+
 import "../scss/app.scss";
 
 window.addEventListener("DOMContentLoaded", () => {
