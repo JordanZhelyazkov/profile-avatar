@@ -47,3 +47,7 @@
   ::-moz-placeholder          {@content}
   :-ms-input-placeholder      {@content}
 }
+
+@mixin frost {
+  transform: scale(2, 2);
+}

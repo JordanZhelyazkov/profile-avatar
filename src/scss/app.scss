@@ -29,5 +29,5 @@ html {
 }
 
 .active {
-  transform: scale(2, 2);
+  @include frost;
 }
