@@ -28,8 +28,21 @@ html {
   flex-flow: column;
   
 }
-.image {
+.active {
   @include frost;
+}
+.image {
+  display: block;
+}
+
+img {
+  width: 30%;
+  height: 30%;
+  max-width: 30%;
+  max-height: 30%;
+  left: 0px;
+  bottom: 0px;
+  // position: absolute;
 }
 
 
