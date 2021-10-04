@@ -28,11 +28,18 @@ html {
   flex-flow: column;
   
 }
-.active {
-  @include frost;
+.image {
+  box-sizing: content-box;
+width: 100%;
+border: solid #5B6DCD 10px;
+padding: 5px;
 }
+
 .image {
   display: block;
+}
+.active {
+  transform: scale(2);
 }
 
 img {
