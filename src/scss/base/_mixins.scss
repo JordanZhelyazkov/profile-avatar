@@ -48,3 +48,9 @@
   :-ms-input-placeholder      {@content}
 }
 
+@mixin frost {
+  .active{
+    transform: scale(1);
+  }
+  
+}
