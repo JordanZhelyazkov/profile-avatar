@@ -49,8 +49,7 @@
 }
 
 @mixin frost {
-  .active{
-    transform: scale(1);
-  }
-  
+    .image active { 
+      transform: scale(2);
+}
 }
